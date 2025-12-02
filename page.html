@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+    <link rel="stylesheet" href="body.css">
+</head>
+<body>
+
+    <h1 class="title">My Gallery</h1>
+
+    <!-- Category Filters -->
+    <div class="filter-container">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="nature">Nature</button>
+        <button class="filter-btn" data-filter="animals">Animals</button>
+        <button class="filter-btn" data-filter="city">City</button>
+    </div>
+
+    <!-- Gallery -->
+    <div class="gallery">
+        <div class="item" data-category="nature">
+            <img src="./nature1.jpg" alt="">
+        </div>
+
+        <div class="item" data-category="animals">
+            <img src="./ani1.jpg" alt="">
+        </div>
+
+        <div class="item" data-category="nature">
+            <img src="./nature2.webp" alt="">
+        </div>
+
+        <div class="item" data-category="animals">
+            <img src="./ani2.jpg" alt="">
+        </div>
+
+        <div class="item" data-category="city">
+            <img src="city2.jpg" alt="">
+        </div>
+         <div class="item" data-category="nature">
+            <img src="./nature3.jpg" alt="">
+        </div>
+
+        <div class="item" data-category="animals">
+            <img src="./ani3.jpg" alt="">
+        </div>
+
+        <div class="item" data-category="city">
+            <img src="./city3.jpg" alt="">
+        </div>
+
+        <div class="item" data-category="nature">
+            <img src="./nature4.jpg" alt="">
+        </div>
+
+        <div class="item" data-category="animals">
+            <img src="ani4.jpg" alt="">
+        </div>
+
+        <div class="item" data-category="city">
+            <img src="c4.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span id="closeBtn" class="close">&times;</span>
+        <img id="lightbox-img" class="lightbox-img">
+        <span id="nextBtn" class="next">&#10095;</span>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
