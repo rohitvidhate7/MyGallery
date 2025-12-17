@@ -6,7 +6,7 @@ const nextBtn = document.getElementById("nextBtn");
 
 let currentIndex = 0;
  
-// Open Lightbox
+// Open Lightbox 
 
 items.forEach((img, index) => {
     img.addEventListener("click", () => {
