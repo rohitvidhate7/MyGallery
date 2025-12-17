@@ -5,7 +5,7 @@ const closeBtn = document.getElementById("closeBtn");
 const nextBtn = document.getElementById("nextBtn");
 
 let currentIndex = 0;
-
+ 
 // Open Lightbox
 
 items.forEach((img, index) => {
